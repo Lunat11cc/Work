@@ -1,0 +1,124 @@
+body{
+    background-color:  white;
+    background-image: url(https://polinov.ru/upload/resize_cache/iblock/f2e/380_285_2/f2e2436a63414e6f039273bee015f16d.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+}
+
+.smallquadrat1{
+    width: 70px;
+    height: 70px;
+    top: 0px; 
+    left: 0px;
+    position: absolute;  
+    background-image: url(img/3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: Anim1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+.smallquadrat2{
+    width: 70px;
+    height: 70px;
+    top: 0px; 
+    left: 0px;
+    position: absolute;  
+    background-image: url(img/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: Anim2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+.smallquadrat3{
+    width: 70px;
+    height: 70px;
+    bottom: 0px; 
+    right: 0px;
+    position: absolute;  
+    background-image: url(img/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: Anim3;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+.smallquadrat4{
+    width: 70px;
+    height: 70px;
+    top: 0px; 
+    right: 0px;
+    position: absolute;  
+    background-image: url(img/2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: Anim4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+@keyframes Anim1{
+    0%{
+     left: 0;   
+    }
+    50%{
+        top: 30%;
+    }
+    100%{
+     left: 100%;   
+    }
+
+  }
+
+  @keyframes Anim2{
+    0%{
+        left: 0;   
+       }
+       50%{
+           top: 30%;
+       }
+       100%{
+        left: 100%;   
+       }
+
+  }
+
+  @keyframes Anim3{
+    0%{
+     right: 0;   
+    }
+    50%{
+        bottom: 61%;
+    }
+    100%{
+     right: 100%;   
+    }
+
+  }
+
+  @keyframes Anim4{
+    0%{
+     top: 0;   
+    }
+    75%{
+        right: 20%;
+    }
+    100%{
+     top: 100%;   
+    }
+
+  }
